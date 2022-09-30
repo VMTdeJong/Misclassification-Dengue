@@ -1,7 +1,17 @@
 # Paths
-if (!exists(dat_path)) file.choose()
-if (!exists(est_path)) file.choose()
-if (!exists(fit_path)) file.choose()
+
+# Scenario 1
+dat_path <- "data/sce_1_data_20191109.RData"
+
+# Scenario 2
+# dat_path <- "data/sce_2_data_20191109.RData"
+  
+# Scenario 3
+# dat_path <- "data/sce_3_data_20191108.RData"
+  
+# all scenarios
+est_path <- "estimates.RData"
+fit_path <- "fit.RData"
   
 # Functions
 library(lme4)
